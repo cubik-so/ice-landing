@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@squaress/ui':
-    specifier: ^0.0.1
-    version: 0.0.1(@types/node@20.12.7)(@types/react-dom@18.2.25)(@types/react@18.2.79)(postcss@8.4.38)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.5)
+    specifier: ^0.0.2
+    version: 0.0.2(@types/node@20.12.7)(@types/react-dom@18.2.25)(@types/react@18.2.79)(postcss@8.4.38)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.5)
   next:
     specifier: 14.2.2
     version: 14.2.2(react-dom@18.2.0)(react@18.2.0)
@@ -1235,8 +1235,8 @@ packages:
     resolution: {integrity: sha512-hw437iINopmQuxWPSUEvqE56NCPsiU8N4AYtfHmJFckclktzK9YQJieD3XkDCDH4OjL+C7zgPUh73R/nrcHrqw==}
     dev: true
 
-  /@squaress/ui@0.0.1(@types/node@20.12.7)(@types/react-dom@18.2.25)(@types/react@18.2.79)(postcss@8.4.38)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.5):
-    resolution: {integrity: sha512-KvMHKnJ+aYSbD4X/nsuE1C9oPhJAeR3vMrNIlEsLQtkqnmF9BWXkw9Pdar9hIK9JCk/2cVm+fpoGfQtJPJe28g==}
+  /@squaress/ui@0.0.2(@types/node@20.12.7)(@types/react-dom@18.2.25)(@types/react@18.2.79)(postcss@8.4.38)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.5):
+    resolution: {integrity: sha512-UoCQoMk+pbBIcUhHL84VZo79WmuERlAgQ3DSe5ddTJdoTLkOLlqGpdWVT7qw0B4XlBYCSQaNTkueaCwRCn2BrA==}
     dependencies:
       '@radix-ui/react-checkbox': 1.0.4(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-dialog': 1.0.5(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.2.0)(react@18.2.0)
@@ -1251,6 +1251,7 @@ packages:
       ts-node: 10.9.2(@types/node@20.12.7)(typescript@5.4.5)
       tsup: 8.0.2(postcss@8.4.38)(ts-node@10.9.2)(typescript@5.4.5)
       uuid: 9.0.1
+      vaul: 0.9.0(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.2.0)(react@18.2.0)
     transitivePeerDependencies:
       - '@emotion/is-prop-valid'
       - '@microsoft/api-extractor'
@@ -4100,6 +4101,20 @@ packages:
 
   /v8-compile-cache-lib@3.0.1:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
+
+  /vaul@0.9.0(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-bZSySGbAHiTXmZychprnX/dE0EsSige88xtyyL3/MCRbrFotRPQZo7UdydGXZWw+CKbNOw5Ow8gwAo93/nB/Cg==}
+    peerDependencies:
+      react: ^16.8 || ^17.0 || ^18.0
+      react-dom: ^16.8 || ^17.0 || ^18.0
+    dependencies:
+      '@radix-ui/react-dialog': 1.0.5(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.2.0)(react@18.2.0)
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    transitivePeerDependencies:
+      - '@types/react'
+      - '@types/react-dom'
+    dev: false
 
   /webidl-conversions@4.0.2:
     resolution: {integrity: sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==}

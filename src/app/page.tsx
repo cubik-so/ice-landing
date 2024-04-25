@@ -1,5 +1,5 @@
-import { Button } from "@squaress/ui";
-import Image from "next/image";
+'use client';
+import { Button } from '@/lib/ui';
 
 export default function Home() {
   return (

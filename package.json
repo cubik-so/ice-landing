@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@squaress/ui": "^0.0.1",
+    "@squaress/ui": "^0.0.2",
     "next": "14.2.2",
     "react": "^18",
     "react-dom": "^18"
