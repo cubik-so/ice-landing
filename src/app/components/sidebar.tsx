@@ -6,7 +6,7 @@ import { useState } from "react";
 const Sidebar = () => {
   const [isActive, setIsActive] = useState("home");
   return (
-    <div className="bg-color-white h-screen w-fit p-4 mt-16">
+    <div className="bg-color-white w-fit p-4 mt-16 sticky top-0">
       <ul className="space-y-8">
         <li>
           <Link href="/" className=" flex items-center space-x-2">
