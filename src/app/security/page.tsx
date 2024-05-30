@@ -12,7 +12,7 @@ const Security = () => {
             • Our server can only be accessed with whitelisted SSH Keys
           </li>
           <li className="margin-bottom: 8px; line-height: 1.5;">
-            • Our withdraw authority is assigned to a Squad with 2 owners
+            • Our withdraw authority is assigned to a ledger
           </li>
           <li className="margin-bottom: 8px; line-height: 1.5;">
             • We enforce an active set of ufw rules
