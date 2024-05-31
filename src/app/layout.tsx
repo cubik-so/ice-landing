@@ -18,11 +18,10 @@ export default function RootLayout({
       <body className={inter.className}>
         <SquaresProvider>
           <div className="flex items-center justify-center w-full h-full bg-color-white">
-            <div className="flex flex-col w-full max-w-6xl max-h-screen ">
+            <div className="flex flex-col w-full max-h-screen ">
               {/* <Navbar />
               <div className="flex items-center  min-h-screen">{children}</div> */}
 
-              <Navbar />
               <div className="flex flex-grow">
                 {/* <div className="sticky top-0 h-full bg-color-white">
                   <Sidebar />
