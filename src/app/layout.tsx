@@ -5,6 +5,7 @@ import "./globals.css";
 import { SquaresProvider } from "@/lib/ui";
 import "@squaress/ui/styles.css";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +28,22 @@ export default function RootLayout({
                   <Sidebar />
                 </div> */}
                 <div className="flex items-center justify-center w-full overflow-auto">
-                  {children}
+                  <div className=" w-full min-h-screen flex items-center justify-center">
+                    <div className="min-h-screen w-full ">
+                      <header
+                        className="bg-cover bg-center w-full h-full min-h-screen"
+                        style={{ backgroundImage: "url(/background.svg)" }}
+                      >
+                        <div className="max-w-7xl mx-auto py-4">
+                          <Navbar />
+                        </div>
+                        {children}
+                      </header>
+                      <div className="bg-black h-[1px] w-full max-w-7xl flex items-center mx-auto" />
+
+                      <Footer />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

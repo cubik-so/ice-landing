@@ -10,19 +10,18 @@ const Navbar = () => {
         <Link href="/">
           <Logo />
         </Link>
-
-        {/* <div className="text-md text-gray-500 cursor-not-allowed">Stake</div>
-
+      </div>
+      <div className="flex items-center space-x-6">
         <Link href={"/system"}>
           <div className="text-md text-gray-500 cursor-pointer">System</div>
         </Link>
         <Link href={"/security"}>
           <div className="text-md text-gray-500 cursor-pointer">Security</div>
-        </Link> */}
+        </Link>
+        <Button className="hidden md:flex" disabled>
+          Stake now
+        </Button>
       </div>
-      <Button className="hidden md:flex" disabled>
-        Stake now
-      </Button>
     </nav>
   );
 };
