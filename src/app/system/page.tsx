@@ -7,13 +7,13 @@ const System = () => {
   return (
     <div className="">
       <div className="py-24 min-h-screen flex flex-col items-center ">
-        <div className=" mx-auto max-w-3xl text-center flex flex-col gap-3">
+        <div className=" mx-auto max-w-3xl text-center flex flex-col gap-5">
           <Text className="text-7xl font-bold text-black leading-snug">
             Reliable Performance
           </Text>
 
           <div className="mt-8  w-full flex items-center justify-center flex-col gap-12">
-            <div className="flex flex-col items-center gap-2">
+            <div className="flex flex-col items-center gap-3">
               <div className="bg-[#303A47] p-4 rounded-lg">
                 <svg
                   width="32"
@@ -41,7 +41,7 @@ const System = () => {
               </p>
             </div>
 
-            <div className="flex flex-col items-center gap-2">
+            <div className="flex flex-col items-center gap-3">
               <div className="bg-[#303A47] p-4 rounded-lg">
                 <svg
                   width="35"
@@ -68,20 +68,17 @@ const System = () => {
       </div>
       <main className="container mx-auto text-center my-48">
         <div className="flex justify-around">
-          <div className="flex flex-col items-start gap-2">
-            <p className="text-black text-[32px]">Connection Speed</p>
-
-            <h2 className="text-5xl font-bold text-black">25 Gbps</h2>
+          <div className="flex flex-col items-center gap-2">
+            <h2 className="text-3xl font-bold text-black">25 Gbps</h2>
+            <p className="text-black text-lg">Connection Speed</p>
           </div>
-          <div className="flex flex-col items-start gap-2">
-            <p className="text-black text-[32px]">Location</p>
-
-            <h2 className="text-5xl font-bold text-black">Madrid</h2>
+          <div className="flex flex-col items-center gap-2">
+            <h2 className="text-3xl font-bold text-black">Madrid</h2>
+            <p className="text-black text-lg">Location</p>
           </div>
-          <div className="flex flex-col items-start gap-2">
-            <p className="text-black text-[32px]">Version 22.X</p>
-
-            <h2 className="text-5xl font-bold text-black">Ubuntu</h2>
+          <div className="flex flex-col items-center gap-2">
+            <h2 className="text-3xl font-bold text-black">Ubuntu</h2>
+            <p className="text-black text-lg">Version 22.X</p>
           </div>
         </div>
       </main>

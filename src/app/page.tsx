@@ -106,20 +106,17 @@ export default function Home() {
       </div>
       <main className="container mx-auto text-center my-48">
         <div className="flex justify-around">
-          <div className="flex flex-col items-start gap-2">
-            <p className="text-black text-[32px]">TVL</p>
-
-            <h2 className="text-5xl font-bold text-black">$10,877</h2>
+          <div className="flex flex-col items-center gap-2">
+            <h2 className="text-3xl font-bold text-black">$10,877</h2>
+            <p className="text-black text-lg">Total Value Locked</p>
           </div>
-          <div className="flex flex-col items-start gap-2">
-            <p className="text-black text-[32px]">APY</p>
-
-            <h2 className="text-5xl font-bold text-black">6.9%</h2>
+          <div className="flex flex-col items-center gap-2">
+            <h2 className="text-3xl font-bold text-black">6.9%</h2>
+            <p className="text-black  text-lg">Annual Percent Yield</p>
           </div>
-          <div className="flex flex-col items-start gap-2">
-            <p className="text-black text-[32px]">Holders</p>
-
-            <h2 className="text-5xl font-bold text-black">7,890</h2>
+          <div className="flex flex-col items-center gap-2">
+            <h2 className="text-3xl font-bold text-black">7,890</h2>
+            <p className="text-black  text-lg">Holders</p>
           </div>
         </div>
       </main>
