@@ -105,7 +105,7 @@ export default function Home() {
         </div>
       </div>
       <main className="container mx-auto text-center my-48">
-        <div className="flex justify-around">
+        <div className="flex justify-around px-16">
           <div className="flex flex-col items-center gap-2">
             <h2 className="text-3xl font-bold text-black">$10,877</h2>
             <p className="text-black text-lg">Total Value Locked</p>
